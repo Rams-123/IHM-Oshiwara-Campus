@@ -81,6 +81,7 @@ module.exports = {
         "hero-banner-hs": "url('assets/banner-img/hs.webp')",
         "hero-banner-pc": "url('assets/banner-img/hero-banner-pc.webp')",
         "hero-visual-comm": "url('assets/banner-img/banner-visual-comm2.png')",
+        'highlight-card-animate': "url(https://a.storyblok.com/f/45434/x/fafbf088ef/masters-card.svg)",
         // 'card': 'linear-gradient(to right, transparent 20%, #A91D54 20%)'
       },
       backgroundColor: {

@@ -80,3 +80,42 @@
 .swiper-slide img {
   @apply h-full w-full aspect-video object-contain rounded-md mx-auto flex;
 }
+
+.card-animate {
+  background: url(https://a.storyblok.com/f/45434/x/fafbf088ef/masters-card.svg) scroll no-repeat 20% 70% #A91D54;
+}
+
+.shimmer-effect {
+  @apply bg-black text-white;
+  -webkit-mask: linear-gradient(120deg, #fff 35%, #a91d5592, #a91d54 45%) right/250% 100%;
+  animation: shimmer 2.5s infinite;
+}
+
+@keyframes shimmer {
+  100% {
+      -webkit-mask-position: left;
+  }
+}
+
+.shimmer-effect1 {
+  @apply bg-black text-white;
+  -webkit-mask: linear-gradient(120deg, #fff 35%, #a91d5592, #a91d54 45%) right/250% 100%;
+  animation: shimmer1 2.5s infinite;
+}
+
+@keyframes shimmer1 {
+  100% {
+      -webkit-mask-position: left;
+  }
+}
+
+.shimmer-effect2 {
+  -webkit-mask: linear-gradient(120deg, #fff 35%, #a91d5592, #a91d54 45%) right/250% 100%;
+  animation: shimmer2 2.5s infinite;
+}
+
+@keyframes shimmer2 {
+  100% {
+      -webkit-mask-position: left;
+  }
+}
